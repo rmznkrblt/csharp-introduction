@@ -25,7 +25,7 @@ Tanımlama:
 
 # Type Casting(Tip dönüşümü)
 
-2 çeşit tip dönüşümü vardır:
+İki çeşit tip dönüşümü vardır:
 
  1 - Automatically(otomatik olarak)
    * Eğer kendisinden büyük bir tipe dönüşüm yapılacaksa direk atama (=) işlemi yapılması yeterli<br>
