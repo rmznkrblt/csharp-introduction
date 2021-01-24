@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "PNybZarCSoxVdZcoKKzFQKDfEA9DiL8HH/Cf6WSucerin0/1fMGfPSgrK/O2j2LorFeW+SGg0nhY+x56ATOGCA==",
+  "success": true,
+  "projectFilePath": "G:\\Project\\c# project\\GitHub\\csharp-introduction\\TypeCasting\\TypeCasting.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ramazan\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
