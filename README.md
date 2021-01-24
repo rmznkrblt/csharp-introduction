@@ -11,13 +11,7 @@ Tanımlama:
 * const tip değişkenAdı = değer;
 
 # Data Types(Veri tipleri)
- İlkel türler, dil tarafından önceden tanımlanmıştır ve ayrılmış anahtar sözcüklerle adlandırılırlar. Dilin temel türlerini temsil ederler.
- * int sayi = 5;                // Sadece tam sayıları tutar
- * double doubleSayi = 5.99D;   // Ondalıklı sayıları tutar
- * char myLetter = 'D';         // Karakter tutar
- * bool myBool = true;          // True yada false değerlerini tutar
- * string myText = "Hello";     // Kelime tutar.
- 
+ İlkel türler(), dil tarafından önceden tanımlanmıştır ve ayrılmış anahtar sözcüklerle adlandırılırlar. Dilin temel türlerini temsil ederler.
  
  | Veri tipi | Hafızada kapladığı alan |Değer aralığı|
 | -- | -- | -- |
@@ -31,11 +25,12 @@ Tanımlama:
 
 # Type Casting(Tip dönüşümü)
 
-2 çeşit tip dönüşümü vardır:
+İki çeşit tip dönüşümü vardır:
 
  1 - Automatically(otomatik olarak)
    * Eğer kendisinden büyük bir tipe dönüşüm yapılacaksa direk atama (=) işlemi yapılması yeterli<br>
       char -> int -> long -> float -> double <br>
+      
  2 - manually(elle)
     * Bu durum kendisinden küçük bir tipe dönüşüm yapılacaksa uygulanır. <br>
       double -> float -> long -> int -> char<br>
