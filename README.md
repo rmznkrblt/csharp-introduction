@@ -29,6 +29,19 @@ Tanımlama:
 | char    | 2 byte | tek tırnak içerisinde tek bir harf/karakter saklar |
 | string    | 2 byte | çift tırnak içerisinde kelime saklar |
 
+# Type Casting(Tip dönüşümü)
+
+2 çeşit tip dönüşümü vardır:
+
+ 1 - Automatically(otomatik olarak)
+   * Eğer kendisinden büyük bir tipe dönüşüm yapılacaksa direk atama (=) işlemi yapılması yeterli<br>
+      char -> int -> long -> float -> double
+ 2 - manually(elle)
+    * Bu durum kendisinden küçük bir tipe dönüşüm yapılacaksa uygulanır.
+      double -> float -> long -> int -> char
+    * Bu durum söz konusuysa aşağı metodlar kullanılmalı:
+     ToBoolean, ToByte, ToChar, ToDateTime, ToDecimal, ToDouble, ToInt16, ToInt32, ToInt64, ToSbyte, oSingle, ToString, ToType, ToUInt16, ToUInt32, ToUInt64
+
 # .Net Freamework
  .Net Freamework, aşağıdaki uygulama türlerini yazmanıza yardımcı olan devrim niteliğinde bir platformdur:
   * Windows Uygulamaları
