@@ -6,6 +6,9 @@ Değişkenler, veri değerlerini depolamak için kullanılan kaplardır.<br>
 Tanımlama:
  * tip değişkenAdı = değer; (tip kısmını bilmiyorsanız eğer bir sonraki konu bu olacağı için takılmayın.)
   - Burada degişken adının ilk kelimesinin küçük harfle ikinci kelimenin büyük harfle yazılmış olmasına dikkat ediniz. Bu bir yazım kuralıdır bunları alışkanlık haline getirmeliyiz. Bundan sonraki tanımlamalar da aynı şekilde kurallara uygun yazılacaktır bunlara dikkat ediniz. 
+  
+<bold> Constants</bold>: Eğer tanımlanan değişkenin değerinin program boyunca değişmesini istemiyorsak const anahtar kelimesi ile tanımlamalıyız
+* const tip değişkenAdı = değer;
 
 # Data Types(Veri tipleri)
  İlkel türler, dil tarafından önceden tanımlanmıştır ve ayrılmış anahtar sözcüklerle adlandırılırlar. Dilin temel türlerini temsil ederler.
