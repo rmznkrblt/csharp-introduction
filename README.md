@@ -8,5 +8,5 @@
 İlkel türler, dil tarafından önceden tanımlanmıştır ve ayrılmış anahtar sözcüklerle adlandırılırlar. Dilin temel türlerini temsil ederler.
 
 # Kaynaklar
- [w3schools](https://www.w3schools.com/cs/cs_variables.asp)
+ [w3schools](https://www.w3schools.com/cs/cs_variables.asp)<br>
  [tutorialspoint](https://www.tutorialspoint.com/csharp/index.htm)
