@@ -12,6 +12,21 @@ Tanımlama:
 
 # Data Types(Veri tipleri)
  İlkel türler, dil tarafından önceden tanımlanmıştır ve ayrılmış anahtar sözcüklerle adlandırılırlar. Dilin temel türlerini temsil ederler.
+ * int sayi = 5;                // Sadece tam sayıları tutar
+ * double doubleSayi = 5.99D;   // Kayar noktalı sayıları tutar
+ * char myLetter = 'D';         // Karakter tutar
+ * bool myBool = true;          // True yada false değerlerini tutar
+ * string myText = "Hello";     // Kelime tutar.
+ 
+ | Veri tipi | Hafızada kapladığı boyut |Değer aralığı|
+| --: | --:| --:|
+| int   | 4 byte | -2,147,483,648 - 2,147,483,647 aralığındaki tam sayıları tutar |
+| long | 8 byte | -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807 aralığındaki tam sayıları tutar |
+| float    | 4 byte | ondalıklı kısmı 6 - 7 aralığında kesirli sayıları tutar |
+| double    | 8 byte | ondalıklı kısmı 15 basamağa kadar tutabilir |
+| bool    | 1 byte | true yada false değerini tutar |
+| char    | 2 byte | tek tırnak içerisinde tek bir harf/karakter saklar |
+| string    | 2 byte | çift tırnak içerisinde kelime saklar |
 
 # .Net Freamework
  .Net Freamework, aşağıdaki uygulama türlerini yazmanıza yardımcı olan devrim niteliğinde bir platformdur:
