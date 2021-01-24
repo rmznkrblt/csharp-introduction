@@ -1,0 +1,13 @@
+G:\Project\c# project\GitHub\csharp-introduction\Conditions\bin\Debug\netcoreapp3.1\Conditions.exe
+G:\Project\c# project\GitHub\csharp-introduction\Conditions\bin\Debug\netcoreapp3.1\Conditions.deps.json
+G:\Project\c# project\GitHub\csharp-introduction\Conditions\bin\Debug\netcoreapp3.1\Conditions.runtimeconfig.json
+G:\Project\c# project\GitHub\csharp-introduction\Conditions\bin\Debug\netcoreapp3.1\Conditions.runtimeconfig.dev.json
+G:\Project\c# project\GitHub\csharp-introduction\Conditions\bin\Debug\netcoreapp3.1\Conditions.dll
+G:\Project\c# project\GitHub\csharp-introduction\Conditions\bin\Debug\netcoreapp3.1\Conditions.pdb
+G:\Project\c# project\GitHub\csharp-introduction\Conditions\obj\Debug\netcoreapp3.1\Conditions.AssemblyInfoInputs.cache
+G:\Project\c# project\GitHub\csharp-introduction\Conditions\obj\Debug\netcoreapp3.1\Conditions.AssemblyInfo.cs
+G:\Project\c# project\GitHub\csharp-introduction\Conditions\obj\Debug\netcoreapp3.1\Conditions.csproj.CoreCompileInputs.cache
+G:\Project\c# project\GitHub\csharp-introduction\Conditions\obj\Debug\netcoreapp3.1\Conditions.dll
+G:\Project\c# project\GitHub\csharp-introduction\Conditions\obj\Debug\netcoreapp3.1\Conditions.pdb
+G:\Project\c# project\GitHub\csharp-introduction\Conditions\obj\Debug\netcoreapp3.1\Conditions.genruntimeconfig.cache
+G:\Project\c# project\GitHub\csharp-introduction\Conditions\obj\Debug\netcoreapp3.1\Conditions.csprojAssemblyReference.cache
