@@ -35,9 +35,9 @@ Tanımlama:
 
  1 - Automatically(otomatik olarak)
    * Eğer kendisinden büyük bir tipe dönüşüm yapılacaksa direk atama (=) işlemi yapılması yeterli<br>
-      char -> int -> long -> float -> double<br>
- 2 - manually(elle)
-    * Bu durum kendisinden küçük bir tipe dönüşüm yapılacaksa uygulanır.<br>
+      char -> int -> long -> float -> double <br>
+ 2 - manually(elle) <br>
+    * Bu durum kendisinden küçük bir tipe dönüşüm yapılacaksa uygulanır. <br>
       double -> float -> long -> int -> char<br>
     * Bu durum söz konusuysa aşağı metodlar kullanılmalı:<br>
      ToBoolean, ToByte, ToChar, ToDateTime, ToDecimal, ToDouble, ToInt16, ToInt32, ToInt64, ToSbyte, oSingle, ToString, ToType, ToUInt16, ToUInt32, ToUInt64<br>
