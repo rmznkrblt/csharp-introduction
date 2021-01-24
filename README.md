@@ -2,10 +2,10 @@
  Bu repository hem kendim için hem de c# diline yeni başlayanlar için oluşturduğum bir kaynaktır. Kod içerisinde gerekli açıklamalar yapılmıştır fakat bazı konular hakkında bir ön bilgi amacıyla README.md kısmında kısa bir konu anlatımı yaptım. Eğer bilmediğiniz yada eksik bildiğinizi düşündüğünüz konular varsa bu kısımdan çalıştıktan sonra koda geçmenizi öneririm. İyi çalışmalar...
  
 # Veriables(Değişkenler)
-Değişkenler, veri değerlerini depolamak için kullanılan kaplardır.
+Değişkenler, veri değerlerini depolamak için kullanılan kaplardır.<br>
 Tanımlama:
  * tip değişkenAdı = değer; (tip kısmını bilmiyorsanız eğer bir sonraki konu bu olacağı için takılmayın.)
-  - Burada degişken adının ilk kelimesinin küçük harfle ikinci kelimenin büyük harfle yazılmış olmasına dikkat ediniz. Bu bir yazım kuralıdır bunları alışkanlık haline getirmeliyiz. 
+  - Burada degişken adının ilk kelimesinin küçük harfle ikinci kelimenin büyük harfle yazılmış olmasına dikkat ediniz. Bu bir yazım kuralıdır bunları alışkanlık haline getirmeliyiz. Bundan sonraki tanımlamalar da aynı şekilde kurallara uygun yazılacaktır bunlara dikkat ediniz. 
 
 # Data Types(Veri tipleri)
  İlkel türler, dil tarafından önceden tanımlanmıştır ve ayrılmış anahtar sözcüklerle adlandırılırlar. Dilin temel türlerini temsil ederler.
