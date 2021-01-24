@@ -19,9 +19,9 @@ Tanımlama:
  * string myText = "Hello";     // Kelime tutar.
  
  | Veri tipi | Hafızada kapladığı boyut |Değer aralığı|
-| --: | --:| --:|
-| int   | 4 byte | -2,147,483,648 - 2,147,483,647 aralığındaki tam sayıları tutar |
-| long | 8 byte | -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807 aralığındaki tam sayıları tutar |
+| -- | -- | -- |
+| int   | 4 byte | 2,147,483,648 - 2,147,483,647 aralığındaki tam sayıları tutar |
+| long | 8 byte | 9,223,372,036,854,775,808 - 9,223,372,036,854,775,807 aralığındaki tam sayıları tutar |
 | float    | 4 byte | ondalıklı kısmı 6 - 7 aralığında kesirli sayıları tutar |
 | double    | 8 byte | ondalıklı kısmı 15 basamağa kadar tutabilir |
 | bool    | 1 byte | true yada false değerini tutar |
