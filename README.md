@@ -30,6 +30,7 @@ Tanımlama:
  1 - Automatically(otomatik olarak)
    * Eğer kendisinden büyük bir tipe dönüşüm yapılacaksa direk atama (=) işlemi yapılması yeterli<br>
       char -> int -> long -> float -> double <br>
+      
  2 - manually(elle)
     * Bu durum kendisinden küçük bir tipe dönüşüm yapılacaksa uygulanır. <br>
       double -> float -> long -> int -> char<br>
