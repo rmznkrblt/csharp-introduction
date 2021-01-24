@@ -14,6 +14,7 @@
   * Web Servisleri
  
  .Net Freamework uygulamaları, çoklu platform uygulamalarıdır. Freamework, aşağıdaki dillerden herhangi birinden kullanılabilecek şekilde tasarlanmıştır: C#, C++, Visual Basic, Jscript, COBOL, vb. Tüm bu diller freamework e erişebilir ve birbirleriyle iletişim kurabilir.
+ 
  .Net Freamework, C# gibi istemci dilleri tarafından kullanılan devasa bir kod kitaplığından oluşur. Aşağıda .Net Freamework ün bazı bileşenleri verilmiştir:
   * Common Language Runtime (CLR)
   * The .Net Framework Class Library
