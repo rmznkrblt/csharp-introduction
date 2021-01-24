@@ -56,4 +56,4 @@ Tanımlama:
 # Kaynaklar
  [w3schools](https://www.w3schools.com/cs/cs_variables.asp)<br>
  [tutorialspoint](https://www.tutorialspoint.com/csharp/index.htm)<br>
- [.md dosyasını oluşturmak için](https://guides.github.com/features/mastering-markdown/)<br>
+ [Markdown komutları için](https://guides.github.com/features/mastering-markdown/)<br>
