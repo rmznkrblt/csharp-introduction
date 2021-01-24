@@ -35,12 +35,12 @@ Tanımlama:
 
  1 - Automatically(otomatik olarak)
    * Eğer kendisinden büyük bir tipe dönüşüm yapılacaksa direk atama (=) işlemi yapılması yeterli<br>
-      char -> int -> long -> float -> double
+      char -> int -> long -> float -> double<br>
  2 - manually(elle)
-    * Bu durum kendisinden küçük bir tipe dönüşüm yapılacaksa uygulanır.
-      double -> float -> long -> int -> char
-    * Bu durum söz konusuysa aşağı metodlar kullanılmalı:
-     ToBoolean, ToByte, ToChar, ToDateTime, ToDecimal, ToDouble, ToInt16, ToInt32, ToInt64, ToSbyte, oSingle, ToString, ToType, ToUInt16, ToUInt32, ToUInt64
+    * Bu durum kendisinden küçük bir tipe dönüşüm yapılacaksa uygulanır.<br>
+      double -> float -> long -> int -> char<br>
+    * Bu durum söz konusuysa aşağı metodlar kullanılmalı:<br>
+     ToBoolean, ToByte, ToChar, ToDateTime, ToDecimal, ToDouble, ToInt16, ToInt32, ToInt64, ToSbyte, oSingle, ToString, ToType, ToUInt16, ToUInt32, ToUInt64<br>
 
 # .Net Freamework
  .Net Freamework, aşağıdaki uygulama türlerini yazmanıza yardımcı olan devrim niteliğinde bir platformdur:
