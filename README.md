@@ -13,7 +13,7 @@ Tanımlama:
 # Data Types(Veri tipleri)
  İlkel türler, dil tarafından önceden tanımlanmıştır ve ayrılmış anahtar sözcüklerle adlandırılırlar. Dilin temel türlerini temsil ederler.
  * int sayi = 5;                // Sadece tam sayıları tutar
- * double doubleSayi = 5.99D;   // Kayar noktalı sayıları tutar
+ * double doubleSayi = 5.99D;   // Ondalıklı sayıları tutar
  * char myLetter = 'D';         // Karakter tutar
  * bool myBool = true;          // True yada false değerlerini tutar
  * string myText = "Hello";     // Kelime tutar.
