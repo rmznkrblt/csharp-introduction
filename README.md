@@ -36,6 +36,29 @@ Tanımlama:
       double -> float -> long -> int -> char<br>
     * Bu durum söz konusuysa aşağı metodlar kullanılmalı:<br>
      ToBoolean, ToByte, ToChar, ToDateTime, ToDecimal, ToDouble, ToInt16, ToInt32, ToInt64, ToSbyte, oSingle, ToString, ToType, ToUInt16, ToUInt32, ToUInt64<br>
+     
+# Koşullar
+ Eğer bir olayın gerçekleşmesi için bir koşul, şart varsa iki switch yada if...else gibi metodlar kullanılır.
+
+* if...else
+if (condition) 
+{
+  // block of code to be executed if the condition is True
+}
+
+* switch
+switch(expression) 
+{
+  case x:
+    // code block
+    break;
+  case y:
+    // code block
+    break;
+  default:
+    // code block
+    break;
+}
 
 # .Net Freamework
  .Net Freamework, aşağıdaki uygulama türlerini yazmanıza yardımcı olan devrim niteliğinde bir platformdur:
