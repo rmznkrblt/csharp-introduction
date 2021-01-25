@@ -6,7 +6,7 @@
 * do/while
 
 
-* for <br>
-![Tensorboard Keras](https://media.geeksforgeeks.org/wp-content/uploads/20191108131134/For-Loop.jpg)
+* for <br> 
+![Tensorboard Keras](https://media.geeksforgeeks.org/wp-content/uploads/20191108131134/For-Loop.jpg) 
 
 * foreach

@@ -27,8 +27,10 @@ C# is used for:
  
   All C# types, including primitive types such as int and double, inherit from a single root object type. All types share a set of common operations. Values of any type can be stored, transported, and operated upon in a consistent manner. Furthermore, C# supports both user-defined reference types and value types. C# allows dynamic allocation of objects and in-line storage of lightweight structures.
   
- # Road Map
+ # Roadmap
   
+  The links below will direct you to the repository related to the subject. First study the README.md section, then look at the code samples in program.cs.
+ 
 ### [1- Veriables and Data Types](https://github.com/rmznkrblt/csharp-introduction/tree/main/VeriablesAndTypes)
 
 ### [2- Type Casting](https://github.com/rmznkrblt/csharp-introduction/tree/main/TypeCasting)
@@ -39,9 +41,13 @@ C# is used for:
 
 ### [5- Loops](https://github.com/rmznkrblt/csharp-introduction/tree/main/Loops)
 
+### [6- Arrays](https://github.com/rmznkrblt/csharp-introduction/tree/main/Arrays)
+
+### [7- Methods](https://github.com/rmznkrblt/csharp-introduction/tree/main/Methods)
+
 ### [6- OOP-csharp](https://github.com/rmznkrblt/OOP-csharp)
 
-# Kaynaklar
+# Resources
  [w3schools](https://www.w3schools.com/cs/cs_variables.asp)<br>
  [tutorialspoint](https://www.tutorialspoint.com/csharp/index.htm)<br>
  [microsoft](https://docs.microsoft.com/tr-tr/dotnet/csharp/)<br>

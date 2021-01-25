@@ -3,7 +3,7 @@ Operators are used to perform operations on variables and values.<br>
 
 ### Arithmetic Operators
 
-Arithmetic operators are used to perform common mathematical operations:
+Arithmetic operators are used to perform common mathematical operations: 
 
 | Operator |	Name |	Description |	Example |
 | -- | -- | -- | -- |
