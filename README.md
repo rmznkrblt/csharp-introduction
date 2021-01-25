@@ -10,7 +10,7 @@ Tanımlama:
 <bold> Constants</bold>: Eğer tanımlanan değişkenin değerinin program boyunca değişmesini istemiyorsak const anahtar kelimesi ile tanımlamalıyız
 * const tip değişkenAdı = değer;
 
-# [Data Types(Veri tipleri)](#https://github.com/rmznkrblt/csharp-introduction/tree/main/DataTypes)
+# [Data Types(Veri tipleri)](https://github.com/rmznkrblt/csharp-introduction/tree/main/DataTypes)
  İlkel türler(), dil tarafından önceden tanımlanmıştır ve ayrılmış anahtar sözcüklerle adlandırılırlar. Dilin temel türlerini temsil ederler.
  
  | Veri tipi | Hafızada kapladığı alan |Değer aralığı|
@@ -23,7 +23,7 @@ Tanımlama:
 | char    | 2 byte | tek tırnak içerisinde tek bir harf/karakter saklar |
 | string    | 2 byte | çift tırnak içerisinde kelime saklar |
 
-# [Type Casting(Tip dönüşümü)](#https://github.com/rmznkrblt/csharp-introduction/tree/main/DataTypes)
+# [Type Casting(Tip dönüşümü)](https://github.com/rmznkrblt/csharp-introduction/tree/main/DataTypes)
 
 İki çeşit tip dönüşümü vardır:
 
@@ -37,7 +37,7 @@ Tanımlama:
     * Bu durum söz konusuysa aşağı metodlar kullanılmalı:<br>
      ToBoolean, ToByte, ToChar, ToDateTime, ToDecimal, ToDouble, ToInt16, ToInt32, ToInt64, ToSbyte, oSingle, ToString, ToType, ToUInt16, ToUInt32, ToUInt64<br>
      
-# [Conditions(Koşullar)](#https://github.com/rmznkrblt/csharp-introduction/tree/main/Conditions)
+# [Conditions(Koşullar)](https://github.com/rmznkrblt/csharp-introduction/tree/main/Conditions)
  Eğer bir olayın gerçekleşmesi için bir koşul, şart varsa iki switch yada if...else metodları kullanılır.
 
 * if...else<br>
