@@ -41,7 +41,7 @@ type variableName = value;
  While value types are stored generally in the stack, reference types are stored in the managed heap.
  A value type derives from System.ValueType and contains the data inside its own memory allocation. In other words, variables or objects or value types have their own copy of the data.
  
- * Value Type :
+ * Value Type :<br>
   Value type variables can be assigned a value directly. They are derived from the class System.ValueType.
   The value types directly contain data. <br>
   A data type specifies the size and type of variable values. It is important to use the correct data type for the corresponding variable; to avoid errors, to save time and memory, but it will also make your code more maintainable and readable. The most common data types are:
@@ -68,25 +68,25 @@ In other words, they refer to a memory location. Using multiple variables, the r
 * Object Type <br>
 The Object Type is the ultimate base class for all data types in C# Common Type System (CTS). Object is an alias for System.Object class. The object types can be assigned values of any other types, value types, reference types, predefined or user-defined types.<br>
 When a value type is converted to object type, it is called boxing and on the other hand, when an object type is converted to a value type, it is called unboxing.
-### Syntax
+### Object Type Syntax
 ```c#
 object objName;
 objName = value; // this is boxing
 ```
 * Dynamic Type<br>
 You can store any type of value in the dynamic data type variable. Type checking for these types of variables takes place at run-time.
-### Syntax
+### Dynamic Type Syntax
 ```c#
 dynamic <variable_name> = value;
 ```
-* const değer;<br>
-In C#, a const keyword is used to declare constant fields and constant local. The value of the constant field is the same throughout the program or in other words, once the constant field is assigned the value of this field is not be changed. In C#, constant fields and locals are not variables, a constant is a number, string, null reference, boolean values.
-### Syntax
+* Constant<br>
+ In C#, a const keyword is used to declare constant fields and constant local. The value of the constant field is the same throughout the program or in other words, once the constant field is assigned the value of this field is not be changed. In C#, constant fields and locals are not variables, a constant is a number, string, null reference, boolean values.
+### Constant Syntax
 ```c#
-public const type constname = value;
+public const type constName = value;
 ```
 
-# [Type Casting(Tip dönüşümü)](https://github.com/rmznkrblt/csharp-introduction/tree/main/DataTypes)
+# [Type Casting](https://github.com/rmznkrblt/csharp-introduction/tree/main/DataTypes)
 
 İki çeşit tip dönüşümü vardır:
 
@@ -127,7 +127,7 @@ switch(expression)
 ```
 
 
-# Loops(Döngüler)
+# Loops(Döngüler) 
 
 * while<br>
 ![Tensorboard Keras](https://blog.penjee.com/wp-content/uploads/2015/04/top-5-programming-animated-gifs_demonstration-of-while-loop-animation_logo.gif)
