@@ -11,7 +11,7 @@ namespace Conditions
             int gradePoint;
 
             //if...else
-            gradePoint = Convert.ToInt32(Console.ReadLine());
+            gradePoint = Convert.ToInt32(Console.ReadLine()); //user imput
             if (gradePoint < 100 && gradePoint >= 90)
             {
                 letterGrade = "AA";
@@ -43,6 +43,10 @@ namespace Conditions
                 letterGrade = "FF";
                 Console.WriteLine(letterGrade);
             }
+
+            // Ternary operator
+            // var result = x > y ? "x is greater than y" : "x is less than y";
+
 
             //switch
             switch (letterGrade)

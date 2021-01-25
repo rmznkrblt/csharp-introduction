@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "kbwfbMYjMUAU5Ie0kqeEdNck/AeHqoQwKtvusSVgPepBUgY1Nb5trn/Asc42hYTmJZVAQb8Vw8PwEhqywvd9Rg==",
+  "success": true,
+  "projectFilePath": "G:\\Project\\c# project\\GitHub\\csharp-introduction\\Loops\\Loops.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ramazan\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
