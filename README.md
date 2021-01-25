@@ -36,15 +36,14 @@ C# is used for:
 ```c#
 type variableName = value;
 ```
- Where type is a C# type (such as int or string), and variableName is the name of the variable (such as x or name). The equal sign is used to assign values to the variable.
- 
- There are two kinds of types in C#: value types and reference types. 
+ Where type is a C# type (such as int or string), and variableName is the name of the variable (such as x or name). The equal sign is used to assign values to the variable. <br>
+ There are two kinds of types in C#: value types and reference types. <br>
  While value types are stored generally in the stack, reference types are stored in the managed heap.
  A value type derives from System.ValueType and contains the data inside its own memory allocation. In other words, variables or objects or value types have their own copy of the data.
  
  * Value Type :
   Value type variables can be assigned a value directly. They are derived from the class System.ValueType.
-  The value types directly contain data. 
+  The value types directly contain data. <br>
   A data type specifies the size and type of variable values. It is important to use the correct data type for the corresponding variable; to avoid errors, to save time and memory, but it will also make your code more maintainable and readable. The most common data types are:
   
 | Type | Represents |	Range | Default Value |
@@ -63,9 +62,29 @@ type variableName = value;
 | ulong | 64-bit unsigned integer type | 0 to 18,446,744,073,709,551,615 | 0 |
 | ushort |	16-bit unsigned integer type | 0 to 65,535 | 0 |
 
-* Reference Type
-<bold> Constants</bold>: Eğer tanımlanan değişkenin değerinin program boyunca değişmesini istemiyorsak const anahtar kelimesi ile tanımlamalıyız
-* const tip değişkenAdı = değer;<br>
+* Reference Type<br>
+The reference types do not contain the actual data stored in a variable, but they contain a reference to the variables.<br>
+In other words, they refer to a memory location. Using multiple variables, the reference types can refer to a memory location. If the data in the memory location is changed by one of the variables, the other variable automatically reflects this change in value. Example of built-in reference types are: object, dynamic, and string.<br>
+* Object Type <br>
+The Object Type is the ultimate base class for all data types in C# Common Type System (CTS). Object is an alias for System.Object class. The object types can be assigned values of any other types, value types, reference types, predefined or user-defined types.<br>
+When a value type is converted to object type, it is called boxing and on the other hand, when an object type is converted to a value type, it is called unboxing.
+### Syntax
+```c#
+object objName;
+objName = value; // this is boxing
+```
+* Dynamic Type<br>
+You can store any type of value in the dynamic data type variable. Type checking for these types of variables takes place at run-time.
+### Syntax
+```c#
+dynamic <variable_name> = value;
+```
+* const değer;<br>
+In C#, a const keyword is used to declare constant fields and constant local. The value of the constant field is the same throughout the program or in other words, once the constant field is assigned the value of this field is not be changed. In C#, constant fields and locals are not variables, a constant is a number, string, null reference, boolean values.
+### Syntax
+```c#
+public const type constname = value;
+```
 
 # [Type Casting(Tip dönüşümü)](https://github.com/rmznkrblt/csharp-introduction/tree/main/DataTypes)
 
