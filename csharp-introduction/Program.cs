@@ -1,12 +1,14 @@
 ﻿using System;
 
-namespace csharp_introduction
+namespace Arrays
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string[] days;
+            string[] cars = { "Volvo", "BMW", "Ford", "Mazda" };
+            int[] myNum = { 10, 20, 30, 40 };
         }
     }
 }

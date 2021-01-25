@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30128.74
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "csharp-introduction", "csharp-introduction\csharp-introduction.csproj", "{0DFCCDDB-A796-43E9-BF63-2ACC0B7726EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays", "csharp-introduction\Arrays.csproj", "{0DFCCDDB-A796-43E9-BF63-2ACC0B7726EC}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataTypes", "DataTypes\DataTypes.csproj", "{48DB16B5-1114-45B6-900E-317EF74ED9F9}"
 EndProject

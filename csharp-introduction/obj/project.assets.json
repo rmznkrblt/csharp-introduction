@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Project\\c# project\\GitHub\\csharp-introduction\\csharp-introduction\\csharp-introduction.csproj",
-      "projectName": "csharp-introduction",
-      "projectPath": "G:\\Project\\c# project\\GitHub\\csharp-introduction\\csharp-introduction\\csharp-introduction.csproj",
+      "projectUniqueName": "G:\\Project\\c# project\\GitHub\\csharp-introduction\\csharp-introduction\\Arrays.csproj",
+      "projectName": "Arrays",
+      "projectPath": "G:\\Project\\c# project\\GitHub\\csharp-introduction\\csharp-introduction\\Arrays.csproj",
       "packagesPath": "C:\\Users\\Ramazan\\.nuget\\packages\\",
       "outputPath": "G:\\Project\\c# project\\GitHub\\csharp-introduction\\csharp-introduction\\obj\\",
       "projectStyle": "PackageReference",
