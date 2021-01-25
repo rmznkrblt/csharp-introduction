@@ -68,7 +68,7 @@ switch(expression) <br>
 
 
 * for <br>
-![Tensorboard Keras](G:\Project\c# project\GitHub\Image\csharp-introduction image\a3.gif "for loop")
+![Tensorboard Keras](https://media.geeksforgeeks.org/wp-content/uploads/20191108131134/For-Loop.jpg)
 
 * foreach
 # Kaynaklar
