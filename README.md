@@ -31,7 +31,7 @@ C# is used for:
   
 ### [1- Veriables and Data Types](https://github.com/rmznkrblt/csharp-introduction/tree/main/VeriablesAndTypes)
 
-### [2- Type Casting](https://github.com/rmznkrblt/csharp-introduction/tree/main/DataTypes)
+### [2- Type Casting](https://github.com/rmznkrblt/csharp-introduction/tree/main/TypeCasting)
      
 ### [3- Operators](https://github.com/rmznkrblt/csharp-introduction/tree/main/Operators)
 
