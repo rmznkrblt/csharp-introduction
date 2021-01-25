@@ -1,7 +1,8 @@
 # C# Introduction
  Bu repository hem kendim için hem de c# diline yeni başlayanlar için oluşturduğum bir kaynaktır. Konular birbileri ile etkileşim halinde olduğu için sırası ile takip edilmesini öneririm. Bu repository c# diline giriş seviyesindedir. Buradaki konuları bitirdikten sonra daha ileri bir seviye olan ve sizi sektörde ileriye taşıyacak olan [OOP-csharp](https://github.com/rmznkrblt/OOP-csharp) repositorysine devam ediniz. İyi çalışmalar...
  
-# [Veriables(Değişkenler)] (https://github.com/rmznkrblt/csharp-introduction/tree/main/Veriables)
+ [https://github.com/rmznkrblt/csharp-introduction/tree/main/Veriables](#1--Veriables(Değişkenler)
+<h3> [Veriables(Değişkenler)] (https://github.com/rmznkrblt/csharp-introduction/tree/main/Veriables)</h3>
 Değişkenler, veri değerlerini depolamak için kullanılan kaplardır.<br>
 Tanımlama:
  * tip değişkenAdı = değer; (tip kısmını bilmiyorsanız eğer bir sonraki konu bu olacağı için takılmayın.)
