@@ -1,0 +1,12 @@
+G:\Project\c# project\GitHub\csharp-introduction\VeriablesAndTypes\bin\Debug\netcoreapp3.1\VeriableAndTypes.exe
+G:\Project\c# project\GitHub\csharp-introduction\VeriablesAndTypes\bin\Debug\netcoreapp3.1\VeriableAndTypes.deps.json
+G:\Project\c# project\GitHub\csharp-introduction\VeriablesAndTypes\bin\Debug\netcoreapp3.1\VeriableAndTypes.runtimeconfig.json
+G:\Project\c# project\GitHub\csharp-introduction\VeriablesAndTypes\bin\Debug\netcoreapp3.1\VeriableAndTypes.runtimeconfig.dev.json
+G:\Project\c# project\GitHub\csharp-introduction\VeriablesAndTypes\bin\Debug\netcoreapp3.1\VeriableAndTypes.dll
+G:\Project\c# project\GitHub\csharp-introduction\VeriablesAndTypes\bin\Debug\netcoreapp3.1\VeriableAndTypes.pdb
+G:\Project\c# project\GitHub\csharp-introduction\VeriablesAndTypes\obj\Debug\netcoreapp3.1\VeriableAndTypes.AssemblyInfoInputs.cache
+G:\Project\c# project\GitHub\csharp-introduction\VeriablesAndTypes\obj\Debug\netcoreapp3.1\VeriableAndTypes.AssemblyInfo.cs
+G:\Project\c# project\GitHub\csharp-introduction\VeriablesAndTypes\obj\Debug\netcoreapp3.1\VeriableAndTypes.csproj.CoreCompileInputs.cache
+G:\Project\c# project\GitHub\csharp-introduction\VeriablesAndTypes\obj\Debug\netcoreapp3.1\VeriableAndTypes.dll
+G:\Project\c# project\GitHub\csharp-introduction\VeriablesAndTypes\obj\Debug\netcoreapp3.1\VeriableAndTypes.pdb
+G:\Project\c# project\GitHub\csharp-introduction\VeriablesAndTypes\obj\Debug\netcoreapp3.1\VeriableAndTypes.genruntimeconfig.cache
