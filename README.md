@@ -1,17 +1,16 @@
 # C# Introduction
- Bu repository hem kendim için hem de c# diline yeni başlayanlar için oluşturduğum bir kaynaktır. Konular birbileri ile etkileşim halinde olduğu için sırası ile takip edilmesini öneririm. Bu repository c# diline giriş seviyesindedir. Buradaki konuları bitirdikten sonra daha ileri bir seviye olan ve sizi sektörde ileriye taşıyacak olan [OOP-csharp](https://github.com/rmznkrblt/OOP-csharp) repositorysine devam ediniz. İyi çalışmalar...
+This repository is a resource created both for myself and for beginners to the c # language. Since the topics interact with each other, I recommend that they be followed sequentially. This repository has been prepared for the beginners to help them understand basic C# programming. After the topics here are over, continue with the [OOP-csharp](https://github.com/rmznkrblt/OOP-csharp) repository, which is a more advanced level and will carry you forward in the sector. Good luck with!!!...
  
-# [Veriables(Değişkenler)](https://github.com/rmznkrblt/csharp-introduction/tree/main/Veriables)
-Değişkenler, veri değerlerini depolamak için kullanılan kaplardır.<br>
-Tanımlama:
- * tip değişkenAdı = değer; (tip kısmını bilmiyorsanız eğer bir sonraki konu bu olacağı için takılmayın.)
-  - Burada degişken adının ilk kelimesinin küçük harfle ikinci kelimenin büyük harfle yazılmış olmasına dikkat ediniz. Bu bir yazım kuralıdır bunları alışkanlık haline getirmeliyiz. Bundan sonraki tanımlamalar da aynı şekilde kurallara uygun yazılacaktır bunlara dikkat ediniz. 
+# What is c#?
+ C# is a modern, object-oriented, and type-safe programming language. C# has its roots in the C family of languages and will be immediately familiar to C, C++, Java, and JavaScript programmers. C# provides language constructs to directly support these concepts, making C# a natural language in which to create and use software components. Since its origin, C# has added features to support new workloads and emerging software design practices.
+ 
+# [Data Types](https://github.com/rmznkrblt/csharp-introduction/tree/main/DataTypes) and [Veriables](https://github.com/rmznkrblt/csharp-introduction/tree/main/Veriables) 
+
   
 <bold> Constants</bold>: Eğer tanımlanan değişkenin değerinin program boyunca değişmesini istemiyorsak const anahtar kelimesi ile tanımlamalıyız
 * const tip değişkenAdı = değer;
 
 # [Data Types(Veri tipleri)](https://github.com/rmznkrblt/csharp-introduction/tree/main/DataTypes)
- İlkel türler(), dil tarafından önceden tanımlanmıştır ve ayrılmış anahtar sözcüklerle adlandırılırlar. Dilin temel türlerini temsil ederler.
  
  | Veri tipi | Hafızada kapladığı alan |Değer aralığı|
 | -- | -- | -- |
@@ -22,6 +21,7 @@ Tanımlama:
 | bool    | 1 byte | true yada false değerini tutar |
 | char    | 2 byte | tek tırnak içerisinde tek bir harf/karakter saklar |
 | string    | 2 byte | çift tırnak içerisinde kelime saklar |
+
 
 # [Type Casting(Tip dönüşümü)](https://github.com/rmznkrblt/csharp-introduction/tree/main/DataTypes)
 
