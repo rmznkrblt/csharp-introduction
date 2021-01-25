@@ -28,7 +28,7 @@ C# is used for:
   All C# types, including primitive types such as int and double, inherit from a single root object type. All types share a set of common operations. Values of any type can be stored, transported, and operated upon in a consistent manner. Furthermore, C# supports both user-defined reference types and value types. C# allows dynamic allocation of objects and in-line storage of lightweight structures.
   
   
-#  [Veriables](https://github.com/rmznkrblt/csharp-introduction/tree/main/Veriables)  and [Data Types](https://github.com/rmznkrblt/csharp-introduction/tree/main/DataTypes)
+#  [Veriables and Data Types](https://github.com/rmznkrblt/csharp-introduction/tree/main/VeriablesAndTypes)
  Variables are containers for storing data values.
  ### Declaring (Creating) Variables
  To create a variable, you must specify the type and assign it a value:
