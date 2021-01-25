@@ -62,7 +62,8 @@ switch(expression) <br>
 
 # Loops(Döngüler)
 
-* while
+* while<br>
+![Tensorboard Keras](https://blog.penjee.com/wp-content/uploads/2015/04/top-5-programming-animated-gifs_demonstration-of-while-loop-animation_logo.gif)
 
 * do/while
 
