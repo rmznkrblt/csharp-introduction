@@ -1,17 +1,51 @@
 # csharp-introduction
- Bu repository hem kendim için hem de c# diline yeni başlayanlar için oluşturduğum bir kaynaktır. Kod içerisinde gerekli açıklamalar yapılmıştır fakat bazı konular hakkında bir ön bilgi amacıyla README.md kısmında kısa bir konu anlatımı yaptım. Eğer bilmediğiniz yada eksik bildiğinizi düşündüğünüz konular varsa bu kısımdan çalıştıktan sonra koda geçmenizi öneririm. İyi çalışmalar...
+This repository is a resource created both for myself and for beginners to the c # language. Since the topics interact with each other, I recommend that they be followed sequentially. This repository has been prepared for the beginners to help them understand basic C# programming. After the topics here are over, continue with the [OOP-csharp](https://github.com/rmznkrblt/OOP-csharp) repository, which is a more advanced level and will carry you forward in the sector. Good luck with!!!...
  
-# Veriables(Değişkenler)
-Değişkenler, veri değerlerini depolamak için kullanılan kaplardır.<br>
-Tanımlama:
- * tip değişkenAdı = değer; (tip kısmını bilmiyorsanız eğer bir sonraki konu bu olacağı için takılmayın.)
-  - Burada degişken adının ilk kelimesinin küçük harfle ikinci kelimenin büyük harfle yazılmış olmasına dikkat ediniz. Bu bir yazım kuralıdır bunları alışkanlık haline getirmeliyiz. Bundan sonraki tanımlamalar da aynı şekilde kurallara uygun yazılacaktır bunlara dikkat ediniz. 
+# What is c#?
+ C# is a modern, object-oriented, and type-safe programming language. C# has its roots in the C family of languages and will be immediately familiar to C, C++, Java, and JavaScript programmers. C# provides language constructs to directly support these concepts, making C# a natural language in which to create and use software components. Since its origin, C# has added features to support new workloads and emerging software design practices.
+ The most recent version is 9.0, which was released in 2020 in .NET 5.0 and included in Visual Studio 2019 version 16.8. Mono is a free and open-source project to develop a cross-platform compiler and runtime environment (i.e. virtual machine) for the language.
+
+C# is used for:
+* Mobile applications
+* Desktop applications
+* Web applications
+* Web services
+* Web sites
+* Games
+* VR
+* Database applications
+* And much, much more!
+ 
+ Following are some of the components of the c# −
+ * [Garbage collection](https://docs.microsoft.com/tr-tr/dotnet/standard/garbage-collection/)
+ * [Exception handling](https://docs.microsoft.com/tr-tr/dotnet/csharp/programming-guide/exceptions/)
+ * [Lambda expressions](https://docs.microsoft.com/tr-tr/dotnet/csharp/language-reference/operators/lambda-expressions)
+ * [Query syntax](https://docs.microsoft.com/tr-tr/dotnet/csharp/linq/)
+ * [Asynchronous operations](https://docs.microsoft.com/tr-tr/dotnet/csharp/programming-guide/concepts/async/)
+ * [Pattern matching](https://docs.microsoft.com/tr-tr/dotnet/csharp/pattern-matching)
+ * [Unified type system](https://docs.microsoft.com/tr-tr/dotnet/csharp/programming-guide/types/)
+ 
+  All C# types, including primitive types such as int and double, inherit from a single root object type. All types share a set of common operations. Values of any type can be stored, transported, and operated upon in a consistent manner. Furthermore, C# supports both user-defined reference types and value types. C# allows dynamic allocation of objects and in-line storage of lightweight structures.
+  
+  
+#  [Veriables](https://github.com/rmznkrblt/csharp-introduction/tree/main/Veriables)  and [Data Types](https://github.com/rmznkrblt/csharp-introduction/tree/main/DataTypes)
+ Variables are containers for storing data values.
+ ### Declaring (Creating) Variables
+ To create a variable, you must specify the type and assign it a value:
+ ### Syntax
+```c#
+type variableName = value;
+```
+ Where type is a C# type (such as int or string), and variableName is the name of the variable (such as x or name). The equal sign is used to assign values to the variable.
+ 
+ There are two kinds of types in C#: value types and reference types. 
+ 
+ 
   
 <bold> Constants</bold>: Eğer tanımlanan değişkenin değerinin program boyunca değişmesini istemiyorsak const anahtar kelimesi ile tanımlamalıyız
 * const tip değişkenAdı = değer;
 
-# Data Types(Veri tipleri)
- İlkel türler(), dil tarafından önceden tanımlanmıştır ve ayrılmış anahtar sözcüklerle adlandırılırlar. Dilin temel türlerini temsil ederler.
+# [Data Types(Veri tipleri)](https://github.com/rmznkrblt/csharp-introduction/tree/main/DataTypes)
  
  | Veri tipi | Hafızada kapladığı alan |Değer aralığı|
 | -- | -- | -- |
@@ -23,7 +57,8 @@ Tanımlama:
 | char    | 2 byte | tek tırnak içerisinde tek bir harf/karakter saklar |
 | string    | 2 byte | çift tırnak içerisinde kelime saklar |
 
-# Type Casting(Tip dönüşümü)
+
+# [Type Casting(Tip dönüşümü)](https://github.com/rmznkrblt/csharp-introduction/tree/main/DataTypes)
 
 İki çeşit tip dönüşümü vardır:
 
@@ -37,53 +72,45 @@ Tanımlama:
     * Bu durum söz konusuysa aşağı metodlar kullanılmalı:<br>
      ToBoolean, ToByte, ToChar, ToDateTime, ToDecimal, ToDouble, ToInt16, ToInt32, ToInt64, ToSbyte, oSingle, ToString, ToType, ToUInt16, ToUInt32, ToUInt64<br>
      
-# Koşullar
+# [Conditions(Koşullar)](https://github.com/rmznkrblt/csharp-introduction/tree/main/Conditions)
  Eğer bir olayın gerçekleşmesi için bir koşul, şart varsa iki switch yada if...else metodları kullanılır.
 
 * if...else<br>
-if (condition) <br>
-{<br>
-  // block of code to be executed if the condition is True<br>
-}<br>
-
+```c#
+if (condition)
+{
+  // block of code to be executed if the condition is True
+}
+```
 * switch<br>
-switch(expression) <br>
-{ <br>
-  case x: <br>
-    // code block <br>
-    break; <br>
-  case y: <br>
-    // code block <br>
-    break; <br>
-  default: <br>
-    // code block <br>
-    break; <br>
-} <br>
-
-# .Net Freamework
- .Net Freamework, aşağıdaki uygulama türlerini yazmanıza yardımcı olan devrim niteliğinde bir platformdur:
-  * Windows Uygulamaları
-  * Web Uygulamaları
-  * Web Servisleri
- 
- .Net Freamework uygulamaları, çoklu platform uygulamalarıdır. Freamework, aşağıdaki dillerden herhangi birinden kullanılabilecek şekilde tasarlanmıştır: C#, C++, Visual Basic, Jscript, COBOL, vb. Tüm bu diller freamework e erişebilir ve birbirleriyle iletişim kurabilir.
- 
- .Net Freamework, C# gibi istemci dilleri tarafından kullanılan devasa bir kod kitaplığından oluşur. Aşağıda .Net Freamework ün bazı bileşenleri verilmiştir:
-  * Common Language Runtime (CLR)
-  * The .Net Framework Class Library
-  * Common Language Specification
-  * Common Type System
-  * Metadata and Assemblies
-  * Windows Forms
-  * ASP.Net and ASP.Net AJAX
-  * ADO.Net
-  * Windows Workflow Foundation (WF)
-  * Windows Presentation Foundation
-  * Windows Communication Foundation (WCF)
-  * LINQ
- 
+```c#
+switch(expression)
+{
+  case x:
+    // code block
+    break;
+  case y:
+    // code block
+    break;
+  default:
+    // code block
+    break;
+}
+```
 
 
+# Loops(Döngüler)
+
+* while<br>
+![Tensorboard Keras](https://blog.penjee.com/wp-content/uploads/2015/04/top-5-programming-animated-gifs_demonstration-of-while-loop-animation_logo.gif)
+
+* do/while
+
+
+* for <br>
+![Tensorboard Keras](https://media.geeksforgeeks.org/wp-content/uploads/20191108131134/For-Loop.jpg)
+
+* foreach
 # Kaynaklar
  [w3schools](https://www.w3schools.com/cs/cs_variables.asp)<br>
  [tutorialspoint](https://www.tutorialspoint.com/csharp/index.htm)<br>
