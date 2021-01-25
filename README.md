@@ -69,18 +69,21 @@ if (condition)
 }
 ```
 * switch<br>
-switch(expression) <br>
-{ <br>
-  case x: <br>
-    // code block <br>
-    break; <br>
-  case y: <br>
-    // code block <br>
-    break; <br>
-  default: <br>
-    // code block <br>
-    break; <br>
-} <br>
+```c#
+switch(expression)
+{
+  case x:
+    // code block
+    break;
+  case y:
+    // code block
+    break;
+  default:
+    // code block
+    break;
+}
+```
+
 
 # Loops(Döngüler)
 
