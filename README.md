@@ -60,6 +60,17 @@ switch(expression) <br>
     break; <br>
 } <br>
 
+# Loops(Döngüler)
+
+* while
+
+* do/while
+
+
+* for
+![Tensorboard Keras](G:\Project\c# project\GitHub\Image\csharp-introduction image\a3.gif)
+
+* foreach
 # Kaynaklar
  [w3schools](https://www.w3schools.com/cs/cs_variables.asp)<br>
  [tutorialspoint](https://www.tutorialspoint.com/csharp/index.htm)<br>
