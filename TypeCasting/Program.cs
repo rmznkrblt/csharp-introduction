@@ -15,7 +15,7 @@ namespace TypeCasting
 
             // Manual casting:
             double myDouble2 = 9.78;
-            int myInt2 = (int)myDouble;   
+            int myInt2 = (int)myDouble; // or Convert.ToInt32(myDouble); 
 
             Console.WriteLine(myDouble2);
             Console.WriteLine(myInt2);
