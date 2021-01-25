@@ -44,7 +44,7 @@ Logical operators are used to determine the logic between variables or values:
 
 Bitwise operator works on bits and perform bit by bit operation.
 
-| p |	q |	p & q |	p | q	| p ^ q |
+| p |	q |	p & q |	p \| q	| p ^ q |
 | -- | -- | -- | -- | -- |
 | 0	| 0	| 0	| 0	| 0 |
 | 0	| 1	| 0	| 1	| 1 |
@@ -114,9 +114,9 @@ Here, operators with the highest precedence appear at the top of the table, thos
 | Bitwise AND | & |Left to right |
 | Bitwise XOR |	^	|Left to right |
 | Bitwise OR	| \| |	Left to right |
-| Logical AND | &&| Left to right |
+| Logical AND | && | Left to right |
 | Logical OR	| \|\| | Left to right |
-| Conditional	| ?:	Right to left |
-| Assignment	| = += -= *= /= %=>>= <<= &= ^= |=	| Right to left |
+| Conditional	| ?: |	Right to left |
+| Assignment	| = += -= *= /= %=>>= <<= &= ^= \|=	| Right to left |
 | Comma |	,	|Left to right |
 
