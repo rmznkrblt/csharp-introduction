@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VeriablesAndTypes", "Veriab
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{1843FA1E-87EF-4A02-A390-055FAED31FDF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methods", "Methods\Methods.csproj", "{31468815-16A3-41C0-BD77-952FE8FFE4A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{1843FA1E-87EF-4A02-A390-055FAED31FDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1843FA1E-87EF-4A02-A390-055FAED31FDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1843FA1E-87EF-4A02-A390-055FAED31FDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31468815-16A3-41C0-BD77-952FE8FFE4A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31468815-16A3-41C0-BD77-952FE8FFE4A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31468815-16A3-41C0-BD77-952FE8FFE4A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31468815-16A3-41C0-BD77-952FE8FFE4A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
