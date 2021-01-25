@@ -29,6 +29,8 @@ C# is used for:
   
  # Road Map
   
+  The links below will direct you to the repository related to the subject. First study the README.md section, then look at the code samples in program.cs.
+ 
 ### [1- Veriables and Data Types](https://github.com/rmznkrblt/csharp-introduction/tree/main/VeriablesAndTypes)
 
 ### [2- Type Casting](https://github.com/rmznkrblt/csharp-introduction/tree/main/TypeCasting)
