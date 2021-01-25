@@ -88,18 +88,31 @@ public const type constName = value;
 
 # [Type Casting](https://github.com/rmznkrblt/csharp-introduction/tree/main/DataTypes)
 
-İki çeşit tip dönüşümü vardır:
+In C#, there are two types of casting:
 
- 1 - Automatically(otomatik olarak)
-   * Eğer kendisinden büyük bir tipe dönüşüm yapılacaksa direk atama (=) işlemi yapılması yeterli<br>
-      char -> int -> long -> float -> double <br>
-      
- 2 - manually(elle)
-    * Bu durum kendisinden küçük bir tipe dönüşüm yapılacaksa uygulanır. <br>
-      double -> float -> long -> int -> char<br>
-    * Bu durum söz konusuysa aşağı metodlar kullanılmalı:<br>
-     ToBoolean, ToByte, ToChar, ToDateTime, ToDecimal, ToDouble, ToInt16, ToInt32, ToInt64, ToSbyte, oSingle, ToString, ToType, ToUInt16, ToUInt32, ToUInt64<br>
+* Implicit Casting (automatically) - converting a smaller type to a larger type size
+char -> int -> long -> float -> double
+
+* Explicit Casting (manually) - converting a larger type to a smaller size type. These conversions are done explicitly by users using the pre-defined functions.<br>
+double -> float -> long -> int -> char<br>
+
+### Type Conversion Methods
+ToBoolean, ToByte, ToChar, ToDateTime, ToDecimal, ToDouble, ToInt16, ToInt32, ToInt64, ToSbyte, ToSingle, ToString, ToType, ToUInt16, ToUInt32, ToUInt64<br>
      
+# [Operators](https://github.com/rmznkrblt/csharp-introduction/tree/main/Operators)
+
+Operators are used to perform operations on variables and values.
+
+| Operator |	Name |	Description |	Example |
+| -- | -- | -- | -- |
+| +	| Addition	| Adds together two values |	x + y	|
+| - | Subtraction	| Subtracts one value from another |	x - y	|
+| *	| Multiplication	| Multiplies two values	| x * y	|
+| /	| Division	| Divides one value by another	| x / y	|
+| %	| Modulus	| Returns the division remainder |	x % y	|
+| ++ | Increment	| Increases the value of a variable by 1 |	x++	|
+| --	| Decrement	| Decreases the value of a variable by 1 |	x-- |
+
 # [Conditions(Koşullar)](https://github.com/rmznkrblt/csharp-introduction/tree/main/Conditions)
  Eğer bir olayın gerçekleşmesi için bir koşul, şart varsa iki switch yada if...else metodları kullanılır.
 
