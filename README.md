@@ -45,4 +45,4 @@ C# is used for:
  [w3schools](https://www.w3schools.com/cs/cs_variables.asp)<br>
  [tutorialspoint](https://www.tutorialspoint.com/csharp/index.htm)<br>
  [microsoft](https://docs.microsoft.com/tr-tr/dotnet/csharp/)<br>
- [Markdown komutları için](https://guides.github.com/features/mastering-markdown/)<br>
+ [for markdown commands](https://guides.github.com/features/mastering-markdown/)<br>
