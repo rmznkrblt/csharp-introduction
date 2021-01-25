@@ -68,7 +68,7 @@ switch(expression) <br>
 
 
 * for
-![Tensorboard Keras](G:\Project\c# project\GitHub\Image\csharp-introduction image\a3.gif)
+![Tensorboard Keras](G:\Project\c# project\GitHub\Image\csharp-introduction image\a3.gif "asdf")
 
 * foreach
 # Kaynaklar
