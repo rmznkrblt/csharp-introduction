@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loops", "Loops\Loops.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VeriablesAndTypes", "VeriablesAndTypes\VeriablesAndTypes.csproj", "{DAC01C93-5E53-4AB0-8198-9E2F3AFB2730}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{1843FA1E-87EF-4A02-A390-055FAED31FDF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{DAC01C93-5E53-4AB0-8198-9E2F3AFB2730}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DAC01C93-5E53-4AB0-8198-9E2F3AFB2730}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DAC01C93-5E53-4AB0-8198-9E2F3AFB2730}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1843FA1E-87EF-4A02-A390-055FAED31FDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1843FA1E-87EF-4A02-A390-055FAED31FDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1843FA1E-87EF-4A02-A390-055FAED31FDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1843FA1E-87EF-4A02-A390-055FAED31FDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
