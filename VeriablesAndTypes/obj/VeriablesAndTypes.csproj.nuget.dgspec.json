@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Project\\c# project\\GitHub\\csharp-introduction\\DataTypes\\DataTypes.csproj": {}
+    "G:\\Project\\c# project\\GitHub\\csharp-introduction\\VeriablesAndTypes\\VeriablesAndTypes.csproj": {}
   },
   "projects": {
-    "G:\\Project\\c# project\\GitHub\\csharp-introduction\\DataTypes\\DataTypes.csproj": {
+    "G:\\Project\\c# project\\GitHub\\csharp-introduction\\VeriablesAndTypes\\VeriablesAndTypes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Project\\c# project\\GitHub\\csharp-introduction\\DataTypes\\DataTypes.csproj",
-        "projectName": "DataTypes",
-        "projectPath": "G:\\Project\\c# project\\GitHub\\csharp-introduction\\DataTypes\\DataTypes.csproj",
+        "projectUniqueName": "G:\\Project\\c# project\\GitHub\\csharp-introduction\\VeriablesAndTypes\\VeriablesAndTypes.csproj",
+        "projectName": "VeriablesAndTypes",
+        "projectPath": "G:\\Project\\c# project\\GitHub\\csharp-introduction\\VeriablesAndTypes\\VeriablesAndTypes.csproj",
         "packagesPath": "C:\\Users\\Ramazan\\.nuget\\packages\\",
-        "outputPath": "G:\\Project\\c# project\\GitHub\\csharp-introduction\\DataTypes\\obj\\",
+        "outputPath": "G:\\Project\\c# project\\GitHub\\csharp-introduction\\VeriablesAndTypes\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -3,17 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30128.74
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataTypes", "DataTypes\DataTypes.csproj", "{48DB16B5-1114-45B6-900E-317EF74ED9F9}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Veriables", "Veriables\Veriables.csproj", "{48D25DC0-A5C7-4A96-96CA-5BE4621515DE}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TypeCasting", "TypeCasting\TypeCasting.csproj", "{AF521020-4DBF-4562-8B33-5D0B0C6B7BA6}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Conditions", "Conditions\Conditions.csproj", "{40752DEF-241E-46D7-B464-8D9BD1AB79C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operators", "Operators\Operators.csproj", "{CF3E4A13-20D1-4266-B411-D2350D831788}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Operators", "Operators\Operators.csproj", "{CF3E4A13-20D1-4266-B411-D2350D831788}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops", "Loops\Loops.csproj", "{85C38E7A-47AA-4673-BCE0-11763E16659C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loops", "Loops\Loops.csproj", "{85C38E7A-47AA-4673-BCE0-11763E16659C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VeriablesAndTypes", "VeriablesAndTypes\VeriablesAndTypes.csproj", "{DAC01C93-5E53-4AB0-8198-9E2F3AFB2730}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,14 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{48DB16B5-1114-45B6-900E-317EF74ED9F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{48DB16B5-1114-45B6-900E-317EF74ED9F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{48DB16B5-1114-45B6-900E-317EF74ED9F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{48DB16B5-1114-45B6-900E-317EF74ED9F9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{48D25DC0-A5C7-4A96-96CA-5BE4621515DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{48D25DC0-A5C7-4A96-96CA-5BE4621515DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{48D25DC0-A5C7-4A96-96CA-5BE4621515DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{48D25DC0-A5C7-4A96-96CA-5BE4621515DE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AF521020-4DBF-4562-8B33-5D0B0C6B7BA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AF521020-4DBF-4562-8B33-5D0B0C6B7BA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF521020-4DBF-4562-8B33-5D0B0C6B7BA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,6 +35,10 @@ Global
 		{85C38E7A-47AA-4673-BCE0-11763E16659C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{85C38E7A-47AA-4673-BCE0-11763E16659C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{85C38E7A-47AA-4673-BCE0-11763E16659C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAC01C93-5E53-4AB0-8198-9E2F3AFB2730}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAC01C93-5E53-4AB0-8198-9E2F3AFB2730}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAC01C93-5E53-4AB0-8198-9E2F3AFB2730}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAC01C93-5E53-4AB0-8198-9E2F3AFB2730}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

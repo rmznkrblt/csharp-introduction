@@ -1,13 +1,22 @@
 ﻿using System;
 
-namespace Veriables
+namespace VeriablesAndTypes
 {
     class Program
     {
         static void Main(string[] args)
         {
-            // type variableName = value;
-            // int bir veri tipidir. Bu ve bunu gibi veri tiplerini DataTypes(Veri tip) projesinde anlatıyor olacağım.
+            int number4 = 5;
+            double doubleNumber = 5.99D;
+            char letter = 'D';
+            bool myBool = true;
+            string text = "Hello";
+
+            Console.WriteLine(number4);
+            Console.WriteLine(doubleNumber);
+            Console.WriteLine(letter);
+            Console.WriteLine(myBool);
+            Console.WriteLine(text);
             int number = 2;
 
             int number2;
