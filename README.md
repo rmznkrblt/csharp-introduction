@@ -43,9 +43,11 @@ C# is used for:
 
 ### [6- Arrays](https://github.com/rmznkrblt/csharp-introduction/tree/main/Arrays)
 
-### [7- Methods](https://github.com/rmznkrblt/csharp-introduction/tree/main/Methods)
+### [7- Strings](https://github.com/rmznkrblt/csharp-introduction/tree/main/Strings)
 
-### [6- OOP-csharp](https://github.com/rmznkrblt/OOP-csharp)
+### [8- Methods](https://github.com/rmznkrblt/csharp-introduction/tree/main/Methods)
+
+### [9- OOP-csharp](https://github.com/rmznkrblt/OOP-csharp)
 
 # Resources
  [w3schools](https://www.w3schools.com/cs/cs_variables.asp)<br>
