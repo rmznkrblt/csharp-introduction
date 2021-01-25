@@ -58,7 +58,7 @@ The Bitwise operators supported by C# are listed in the following table.
 | Operator |	Description |	Example |
 | -- | -- | -- |
 | &	| Binary AND Operator copies a bit to the result if it exists in both operands.	| (A & B) = 12, which is 0000 1100 |
-| |	| Binary OR Operator copies a bit if it exists in either operand.	| (A | B) = 61, which is 0011 1101 |
+| \|	| Binary OR Operator copies a bit if it exists in either operand.	| (A \| B) = 61, which is 0011 1101 |
 | ^	| Binary XOR Operator copies the bit if it is set in one operand but not both.	| (A ^ B) = 49, which is 0011 0001 |
 | ~	| Binary Ones Complement Operator is unary and has the effect of 'flipping' bits.	| (~A ) = -61, which is 1100 0011 in 2's complement due to a signed binary number. |
 | << |	Binary Left Shift Operator. The left operands value is moved left by the number of bits specified by the right operand.	| A << 2 = 240, which is 1111 0000 |
@@ -77,7 +77,7 @@ Assignment operators are used to assign values to variables.
 | /=	| x /= 3 |	x = x / 3	|
 | %=	| x %= 3 |	x = x % 3	|
 | &=	| x &= 3 |	x = x & 3	|
-| |=	| x |= 3 |	x = x | 3	|
+| \|=	| x \|= 3 |	x = x \| 3	|
 | ^= | x ^= 3 |	x = x ^ 3	|
 | >>=	| x >>= 3	| x = x >> 3	|
 | <<=	| x <<= 3 | x = x << 3 |
@@ -113,9 +113,9 @@ Here, operators with the highest precedence appear at the top of the table, thos
 | Equality	| == !=	|Left to right |
 | Bitwise AND | & |Left to right |
 | Bitwise XOR |	^	|Left to right |
-| Bitwise OR	| | |	Left to right |
+| Bitwise OR	| \| |	Left to right |
 | Logical AND | &&| Left to right |
-| Logical OR	| ||  	Left to right |
+| Logical OR	| \|\| | Left to right |
 | Conditional	| ?:	Right to left |
 | Assignment	| = += -= *= /= %=>>= <<= &= ^= |=	| Right to left |
 | Comma |	,	|Left to right |
