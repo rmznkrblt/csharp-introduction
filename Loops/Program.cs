@@ -12,12 +12,14 @@ namespace Loops
             Console.WriteLine("--------------------while loop------------------");
             while (i>0)
             {
-                Console.Write(i+" ");
+                if (i<3)
+                    break;
+                    Console.Write(i+" ");
                 i--;
             }
             Console.WriteLine();
 
-
+            i = 0;
             // do/while
             Console.WriteLine("--------------------do/while loop------------------");
             do
@@ -32,7 +34,9 @@ namespace Loops
             Console.WriteLine("--------------------for loop------------------");
             for (i = 0; i < 5; i++)
             {
-                Console.Write(i + " ");
+                if (i==3)
+                    continue;
+                    Console.Write(i + " ");
             }
             Console.WriteLine();
 
