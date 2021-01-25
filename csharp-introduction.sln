@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30128.74
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays", "csharp-introduction\Arrays.csproj", "{0DFCCDDB-A796-43E9-BF63-2ACC0B7726EC}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataTypes", "DataTypes\DataTypes.csproj", "{48DB16B5-1114-45B6-900E-317EF74ED9F9}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Veriables", "Veriables\Veriables.csproj", "{48D25DC0-A5C7-4A96-96CA-5BE4621515DE}"
@@ -23,10 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0DFCCDDB-A796-43E9-BF63-2ACC0B7726EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0DFCCDDB-A796-43E9-BF63-2ACC0B7726EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0DFCCDDB-A796-43E9-BF63-2ACC0B7726EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0DFCCDDB-A796-43E9-BF63-2ACC0B7726EC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{48DB16B5-1114-45B6-900E-317EF74ED9F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{48DB16B5-1114-45B6-900E-317EF74ED9F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48DB16B5-1114-45B6-900E-317EF74ED9F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
