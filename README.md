@@ -3,6 +3,27 @@ This repository is a resource created both for myself and for beginners to the c
  
 # What is c#?
  C# is a modern, object-oriented, and type-safe programming language. C# has its roots in the C family of languages and will be immediately familiar to C, C++, Java, and JavaScript programmers. C# provides language constructs to directly support these concepts, making C# a natural language in which to create and use software components. Since its origin, C# has added features to support new workloads and emerging software design practices.
+ The most recent version is 9.0, which was released in 2020 in .NET 5.0 and included in Visual Studio 2019 version 16.8. Mono is a free and open-source project to develop a cross-platform compiler and runtime environment (i.e. virtual machine) for the language.
+
+C# is used for:
+* Mobile applications
+* Desktop applications
+* Web applications
+* Web services
+* Web sites
+* Games
+* VR
+* Database applications
+* And much, much more!
+ 
+ Following are some of the components of the c# −
+ * [Garbage collection](https://docs.microsoft.com/tr-tr/dotnet/standard/garbage-collection/)
+ * [Exception handling](https://docs.microsoft.com/tr-tr/dotnet/csharp/programming-guide/exceptions/)
+ * [Lambda expressions](https://docs.microsoft.com/tr-tr/dotnet/csharp/language-reference/operators/lambda-expressions)
+ * [Query syntax](https://docs.microsoft.com/tr-tr/dotnet/csharp/linq/)
+ * [Asynchronous operations](https://docs.microsoft.com/tr-tr/dotnet/csharp/programming-guide/concepts/async/)
+ * [Pattern matching](https://docs.microsoft.com/tr-tr/dotnet/csharp/pattern-matching)
+ * [Unified type system](https://docs.microsoft.com/tr-tr/dotnet/csharp/programming-guide/types/)
  
 # [Data Types](https://github.com/rmznkrblt/csharp-introduction/tree/main/DataTypes) and [Veriables](https://github.com/rmznkrblt/csharp-introduction/tree/main/Veriables) 
 
