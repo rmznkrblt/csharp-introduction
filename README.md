@@ -1,4 +1,4 @@
-# C# Introduction
+# csharp-introduction
 This repository is a resource created both for myself and for beginners to the c # language. Since the topics interact with each other, I recommend that they be followed sequentially. This repository has been prepared for the beginners to help them understand basic C# programming. After the topics here are over, continue with the [OOP-csharp](https://github.com/rmznkrblt/OOP-csharp) repository, which is a more advanced level and will carry you forward in the sector. Good luck with!!!...
  
 # What is c#?
@@ -28,7 +28,7 @@ C# is used for:
   All C# types, including primitive types such as int and double, inherit from a single root object type. All types share a set of common operations. Values of any type can be stored, transported, and operated upon in a consistent manner. Furthermore, C# supports both user-defined reference types and value types. C# allows dynamic allocation of objects and in-line storage of lightweight structures.
   
   
-# [Data Types](https://github.com/rmznkrblt/csharp-introduction/tree/main/DataTypes) and [Veriables](https://github.com/rmznkrblt/csharp-introduction/tree/main/Veriables) 
+#  [Veriables](https://github.com/rmznkrblt/csharp-introduction/tree/main/Veriables)  and [Data Types](https://github.com/rmznkrblt/csharp-introduction/tree/main/DataTypes)
  Variables are containers for storing data values.
  ### Declaring (Creating) Variables
  To create a variable, you must specify the type and assign it a value:
@@ -36,6 +36,8 @@ C# is used for:
 ```c#
 type variableName = value;
 ```
+ Where type is a C# type (such as int or string), and variableName is the name of the variable (such as x or name). The equal sign is used to assign values to the variable.
+ 
  There are two kinds of types in C#: value types and reference types. 
  
  
