@@ -47,7 +47,7 @@ C# is used for:
 
 ### [6- OOP-csharp](https://github.com/rmznkrblt/OOP-csharp)
 
-# Kaynaklar
+# Resources
  [w3schools](https://www.w3schools.com/cs/cs_variables.asp)<br>
  [tutorialspoint](https://www.tutorialspoint.com/csharp/index.htm)<br>
  [microsoft](https://docs.microsoft.com/tr-tr/dotnet/csharp/)<br>
