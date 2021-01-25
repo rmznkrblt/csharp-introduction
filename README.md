@@ -47,9 +47,9 @@ type variableName = value;
   The value types directly contain data. 
   
 <bold> Constants</bold>: Eğer tanımlanan değişkenin değerinin program boyunca değişmesini istemiyorsak const anahtar kelimesi ile tanımlamalıyız
-* const tip değişkenAdı = değer;
+* const tip değişkenAdı = değer;<br>
  
- | Type | Represents |	Range | Default Value | Size |
+| Type | Represents |	Range | Default Value |
 | -- | -- | -- | -- |
 | bool | Boolean value | 	True or False | False |
 | byte | 8-bit unsigned integer | 	0 to 255 | 0 |
