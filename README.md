@@ -39,23 +39,48 @@ type variableName = value;
  Where type is a C# type (such as int or string), and variableName is the name of the variable (such as x or name). The equal sign is used to assign values to the variable.
  
  There are two kinds of types in C#: value types and reference types. 
+ While value types are stored generally in the stack, reference types are stored in the managed heap.
+ A value type derives from System.ValueType and contains the data inside its own memory allocation. In other words, variables or objects or value types have their own copy of the data.
  
+ * Value Type :
+  Value type variables can be assigned a value directly. They are derived from the class System.ValueType.
+  The value types directly contain data. 
+  
+  |Type|	Represents	Range	Default Value
+bool	Boolean value	True or False	False
+byte	8-bit unsigned integer	0 to 255	0
+char	16-bit Unicode character	U +0000 to U +ffff	'\0'
+decimal	128-bit precise decimal values with 28-29 significant digits	(-7.9 x 1028 to 7.9 x 1028) / 100 to 28	0.0M
+double	64-bit double-precision floating point type	(+/-)5.0 x 10-324 to (+/-)1.7 x 10308	0.0D
+float	32-bit single-precision floating point type	-3.4 x 1038 to + 3.4 x 1038	0.0F
+int	32-bit signed integer type	-2,147,483,648 to 2,147,483,647	0
+long	64-bit signed integer type	-9,223,372,036,854,775,808 to 9,223,372,036,854,775,807	0L
+sbyte	8-bit signed integer type	-128 to 127	0
+short	16-bit signed integer type	-32,768 to 32,767	0
+uint	32-bit unsigned integer type	0 to 4,294,967,295	0
+ulong	64-bit unsigned integer type	0 to 18,446,744,073,709,551,615	0
+ushort	16-bit unsigned integer type	0 to 65,535	0
  
   
 <bold> Constants</bold>: Eğer tanımlanan değişkenin değerinin program boyunca değişmesini istemiyorsak const anahtar kelimesi ile tanımlamalıyız
 * const tip değişkenAdı = değer;
-
-# [Data Types(Veri tipleri)](https://github.com/rmznkrblt/csharp-introduction/tree/main/DataTypes)
  
- | Veri tipi | Hafızada kapladığı alan |Değer aralığı|
-| -- | -- | -- |
-| int   | 4 byte | 2,147,483,648 - 2,147,483,647 aralığındaki tam sayıları tutar |
-| long | 8 byte | 9,223,372,036,854,775,808 - 9,223,372,036,854,775,807 aralığındaki tam sayıları tutar |
-| float    | 4 byte | ondalıklı kısmı 6 - 7 aralığında kesirli sayıları tutar |
-| double    | 8 byte | ondalıklı kısmı 15 basamağa kadar tutabilir |
-| bool    | 1 byte | true yada false değerini tutar |
-| char    | 2 byte | tek tırnak içerisinde tek bir harf/karakter saklar |
-| string    | 2 byte | çift tırnak içerisinde kelime saklar |
+ | Type | Represents |	Range | Default Value | Size |
+| -- | -- | -- | -- |
+| bool | Boolean value | 	True or False | False |
+| byte | 8-bit unsigned integer | 	0 to 255 | 0 |
+| char | 16-bit Unicode character | U +0000 to U +ffff | '\0' |
+| decimal |	128-bit precise decimal values with 28-29 significant digits | (-7.9 x 1028 to 7.9 x 1028) / 100 to 28 | 0.0M |
+| double| 64-bit double-precision floating point type | (+/-)5.0 x 10-324 to (+/-)1.7 x 10308 | 0.0D |
+| float | 32-bit single-precision floating point type | -3.4 x 1038 to + 3.4 x 1038 | 0.0F |
+| int | 32-bit signed integer type | -2,147,483,648 to 2,147,483,647 | 0 |
+| long | 64-bit signed integer type | -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807 | 0L |
+| sbyte | 8-bit signed integer type | -128 to 127 | 0 |
+| short | 16-bit signed integer type | -32,768 to 32,767 | 0 |
+| uint | 32-bit unsigned integer type | 0 to 4,294,967,295 | 0 |
+| ulong | 64-bit unsigned integer type | 0 to 18,446,744,073,709,551,615 | 0 |
+| ushort |	16-bit unsigned integer type | 0 to 65,535 | 0 |
+
 
 
 # [Type Casting(Tip dönüşümü)](https://github.com/rmznkrblt/csharp-introduction/tree/main/DataTypes)
