@@ -45,10 +45,8 @@ type variableName = value;
  * Value Type :
   Value type variables can be assigned a value directly. They are derived from the class System.ValueType.
   The value types directly contain data. 
+  A data type specifies the size and type of variable values. It is important to use the correct data type for the corresponding variable; to avoid errors, to save time and memory, but it will also make your code more maintainable and readable. The most common data types are:
   
-<bold> Constants</bold>: Eğer tanımlanan değişkenin değerinin program boyunca değişmesini istemiyorsak const anahtar kelimesi ile tanımlamalıyız
-* const tip değişkenAdı = değer;<br>
- 
 | Type | Represents |	Range | Default Value |
 | -- | -- | -- | -- |
 | bool | Boolean value | 	True or False | False |
@@ -65,7 +63,9 @@ type variableName = value;
 | ulong | 64-bit unsigned integer type | 0 to 18,446,744,073,709,551,615 | 0 |
 | ushort |	16-bit unsigned integer type | 0 to 65,535 | 0 |
 
-
+* Reference Type
+<bold> Constants</bold>: Eğer tanımlanan değişkenin değerinin program boyunca değişmesini istemiyorsak const anahtar kelimesi ile tanımlamalıyız
+* const tip değişkenAdı = değer;<br>
 
 # [Type Casting(Tip dönüşümü)](https://github.com/rmznkrblt/csharp-introduction/tree/main/DataTypes)
 
