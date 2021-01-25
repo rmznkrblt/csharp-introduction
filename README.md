@@ -39,6 +39,10 @@ C# is used for:
 
 ### [5- Loops](https://github.com/rmznkrblt/csharp-introduction/tree/main/Loops)
 
+### [6- Arrays](https://github.com/rmznkrblt/csharp-introduction/tree/main/Arrays)
+
+### [7- Methods](https://github.com/rmznkrblt/csharp-introduction/tree/main/Methods)
+
 ### [6- OOP-csharp](https://github.com/rmznkrblt/OOP-csharp)
 
 # Kaynaklar
