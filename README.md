@@ -62,11 +62,12 @@ C# is used for:
  Eğer bir olayın gerçekleşmesi için bir koşul, şart varsa iki switch yada if...else metodları kullanılır.
 
 * if...else<br>
-if (condition) <br>
-{<br>
-  // block of code to be executed if the condition is True<br>
-}<br>
-
+```c#
+if (condition)
+{
+  // block of code to be executed if the condition is True
+}
+```
 * switch<br>
 switch(expression) <br>
 { <br>
