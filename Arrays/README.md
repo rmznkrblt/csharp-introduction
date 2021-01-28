@@ -1,4 +1,5 @@
-# Arrays
+# 1. Arrays
 
 ![Array](https://media.geeksforgeeks.org/wp-content/uploads/C-Arrays.jpg)
+
 

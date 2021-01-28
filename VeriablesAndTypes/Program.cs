@@ -11,7 +11,6 @@ namespace VeriablesAndTypes
             char letter = 'D';
             bool myBool = true;
             string text = "Hello";
-
             Console.WriteLine(number4);
             Console.WriteLine(doubleNumber);
             Console.WriteLine(letter);
