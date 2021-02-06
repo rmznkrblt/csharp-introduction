@@ -8,13 +8,13 @@ A method is a block of code which only runs when it is called. Methods are gener
 
  ```Modifier``` − This determines the visibility of a variable or a method from another class.
 
- ```Return type``` − A method may return a value. The return type is the data type of the value the method returns. If the method is not returning any values, then the return type is void.
+ `Return type` − A method may return a value. The return type is the data type of the value the method returns. If the method is not returning any values, then the return type is void.
 
- ```Method name``` − Method name is a unique identifier and it is case sensitive. It cannot be same as any other identifier declared in the class.
+ `Method name` − Method name is a unique identifier and it is case sensitive. It cannot be same as any other identifier declared in the class.
 
- ```Parameter list``` − Enclosed between parentheses, the parameters are used to pass and receive data from a method. The parameter list refers to the type, order, and number of the parameters of a method. Parameters are optional; that is, a method may contain no parameters.
+ `Parameter list` − Enclosed between parentheses, the parameters are used to pass and receive data from a method. The parameter list refers to the type, order, and number of the parameters of a method. Parameters are optional; that is, a method may contain no parameters.
 
-```Method body``` − This contains the set of instructions needed to complete the required activity.
+`Method body` − This contains the set of instructions needed to complete the required activity.
 
 ## Call a Method
 To call (execute) a method, write the method's name followed by two parentheses () and a semicolon;
@@ -26,15 +26,15 @@ To call (execute) a method, write the method's name followed by two parentheses 
 
 ## Types of methods
 
-1. ``` Function with no argument and no return value:``` When a function has no arguments, it does not receive any data from the calling function. Similarly when it does not return a value, the calling function does not receive any data from the called function.
-   > static ```void``` function();
-1. ```Function with arguments but no return value:``` When a function has arguments, it receive any data from the calling function but it returns no values.
-   > static ```void``` function (```parameters-types```);
-1. ```Function with no arguments but returns a value:``` There could be occasions where we may need to design functions that may not take any arguments but returns a value to the calling function. A example for this is getchar function it has no parameters but it returns an integer an integer type data that represents a character.
-   > static ```return-type``` function();
+1. ` Function with no argument and no return value:` When a function has no arguments, it does not receive any data from the calling function. Similarly when it does not return a value, the calling function does not receive any data from the called function.
+   > static `void` function();
+1. `Function with arguments but no return value:` When a function has arguments, it receive any data from the calling function but it returns no values.
+   > static `void` function (`parameters-types`);
+1. `Function with no arguments but returns a value:` There could be occasions where we may need to design functions that may not take any arguments but returns a value to the calling function. A example for this is getchar function it has no parameters but it returns an integer an integer type data that represents a character.
+   > static `return-type` function();
 
-1. ```Function with arguments and return value ```
-   > static ```return-type``` function (```parameters-types);```
+1. `Function with arguments and return value `
+   > static `return-type` function (`parameters-types);`
 ## Recursive Functions
 In programming terms a recursive function can be defined as a routine that calls itself directly or indirectly.
 Using recursive algorithm, certain problems can be solved quite easily.
